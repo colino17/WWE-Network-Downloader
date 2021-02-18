@@ -1,4 +1,8 @@
-WWE Network 2.0 Downloader (Improved)
+# UPDATE
+
+This is a fork which alters the FFMPEG parameters in the script to change from COPY to x265 encoding. This implementation requires testing to determine the effect on quality, filesize, and process time.
+
+# WWE Network 2.0 Downloader (Improved)
 
 Freyta's WWE Network 2.0 Downloader using Python3. This was coded by me from scratch, ideas were taken from youtube-dl.
 
