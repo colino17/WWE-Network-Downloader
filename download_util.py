@@ -54,7 +54,7 @@ class download:
             -i "{}.ts"\
             -i "{}.aac"\
             -i "{}" -map_metadata 1\
-            -c:v libx265 -crf 23 -preset medium -c:a aac -b:a 128k \
+            -c:v libx265 -crf 23 -preset fast -c:a copy \
             "{}.mp4" -y'.format(input_file, input_file, metafile, output_file))
             
         subprocess.call(ffmpeg_command, shell=True)
